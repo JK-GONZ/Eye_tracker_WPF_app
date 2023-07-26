@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eye_tracker_WPF_app", "Eye_tracker_WPF_app.csproj", "{79DE8357-7CCE-4A19-BCBA-F9BC961CD8D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79DE8357-7CCE-4A19-BCBA-F9BC961CD8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DE8357-7CCE-4A19-BCBA-F9BC961CD8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DE8357-7CCE-4A19-BCBA-F9BC961CD8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DE8357-7CCE-4A19-BCBA-F9BC961CD8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {440A278E-0429-4EC8-8939-8763BA170C0D}
+	EndGlobalSection
+EndGlobal

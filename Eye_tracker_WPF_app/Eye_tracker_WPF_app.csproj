@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Recursos\Roboto-Bold.ttf" />
+    <None Remove="Recursos\Roboto-BoldItalic.ttf" />
+    <None Remove="Recursos\Roboto-Italic.ttf" />
+    <None Remove="Recursos\Roboto-Medium.ttf" />
+    <None Remove="Recursos\Roboto-MediumItalic.ttf" />
+    <None Remove="Recursos\Roboto-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="python" Version="3.11.4" />
+    <PackageReference Include="pythonnet" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Recursos\Roboto-Bold.ttf" />
+    <Resource Include="Recursos\Roboto-BoldItalic.ttf" />
+    <Resource Include="Recursos\Roboto-Italic.ttf" />
+    <Resource Include="Recursos\Roboto-Medium.ttf" />
+    <Resource Include="Recursos\Roboto-MediumItalic.ttf" />
+    <Resource Include="Recursos\Roboto-Regular.ttf" />
+  </ItemGroup>
+
+</Project>
