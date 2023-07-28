@@ -46,7 +46,9 @@ namespace Eye_tracker_WPF_app.Paginas
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            Pagina_modificar_botones pagina_Modificar_Botones = new Pagina_modificar_botones();
 
+            this.NavigationService.Navigate(pagina_Modificar_Botones);
         }
     }
 }

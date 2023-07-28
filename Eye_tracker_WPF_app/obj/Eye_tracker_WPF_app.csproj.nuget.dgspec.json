@@ -40,6 +40,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "MindFusion.Keyboard.Wpf": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "python": {
               "target": "Package",
               "version": "[3.11.4, )"
@@ -64,7 +68,7 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },
-            "Microsoft.WindowsDesktop.App.WPF": {
+            "Microsoft.WindowsDesktop.App": {
               "privateAssets": "none"
             }
           },

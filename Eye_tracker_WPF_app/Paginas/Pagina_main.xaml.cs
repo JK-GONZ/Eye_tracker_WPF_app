@@ -42,7 +42,6 @@ namespace Eye_tracker_WPF_app.Paginas
             Pagina_Botones PgBotones = new Pagina_Botones();
 
             this.NavigationService.Navigate(PgBotones);
-
         }
 
         private void Button_Click_Juegos(object sender, RoutedEventArgs e)

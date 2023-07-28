@@ -29,6 +29,23 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "MindFusion.Keyboard.Wpf/5.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7/MindFusion.Keyboard.Wpf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7/MindFusion.Licensing.dll": {},
+          "lib/net6.0-windows7/MindFusion.Themes.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7/MindFusion.Keyboard.Wpf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7/MindFusion.Licensing.dll": {},
+          "lib/net6.0-windows7/MindFusion.Themes.Wpf.dll": {}
+        }
+      },
       "python/3.11.4": {
         "type": "package"
       },
@@ -264,6 +281,33 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "MindFusion.Keyboard.Wpf/5.0.3": {
+      "sha512": "E+JqmSnK1P3FAuMKqiWz0+9RHy3WwQdTzrwvX1lH6S21wRFhLjxpQCRsnFq1Y+dQTSez4EE2OYQrMNq00fPV+g==",
+      "type": "package",
+      "path": "mindfusion.keyboard.wpf/5.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MindFusion.Keyboard.Wpf.dll",
+        "lib/net40/MindFusion.Keyboard.Wpf.xml",
+        "lib/net40/MindFusion.Licensing.dll",
+        "lib/net40/MindFusion.Themes.Wpf.dll",
+        "lib/net5.0-windows7/MindFusion.Keyboard.Wpf.dll",
+        "lib/net5.0-windows7/MindFusion.Keyboard.Wpf.xml",
+        "lib/net5.0-windows7/MindFusion.Licensing.dll",
+        "lib/net5.0-windows7/MindFusion.Themes.Wpf.dll",
+        "lib/net6.0-windows7/MindFusion.Keyboard.Wpf.dll",
+        "lib/net6.0-windows7/MindFusion.Keyboard.Wpf.xml",
+        "lib/net6.0-windows7/MindFusion.Licensing.dll",
+        "lib/net6.0-windows7/MindFusion.Themes.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.Keyboard.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.Keyboard.Wpf.xml",
+        "lib/netcoreapp3.1/MindFusion.Licensing.dll",
+        "lib/netcoreapp3.1/MindFusion.Themes.Wpf.dll",
+        "mindfusion.keyboard.wpf.5.0.3.nupkg.sha512",
+        "mindfusion.keyboard.wpf.nuspec"
       ]
     },
     "python/3.11.4": {
@@ -2574,6 +2618,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "MindFusion.Keyboard.Wpf >= 5.0.3",
       "python >= 3.11.4",
       "pythonnet >= 3.0.1"
     ]
@@ -2617,6 +2662,10 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
+          "MindFusion.Keyboard.Wpf": {
+            "target": "Package",
+            "version": "[5.0.3, )"
+          },
           "python": {
             "target": "Package",
             "version": "[3.11.4, )"
@@ -2641,7 +2690,7 @@
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           },
-          "Microsoft.WindowsDesktop.App.WPF": {
+          "Microsoft.WindowsDesktop.App": {
             "privateAssets": "none"
           }
         },

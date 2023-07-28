@@ -7,21 +7,48 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Paginas\Pagina_añadir_boton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Paginas\Pagina_Botones.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Paginas\Pagina_Juegos.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Paginas\Pagina_main.xaml.cs">
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Paginas\Pagina_modificar_botones.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Paginas\Pagina_Teclado_Pantalla.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Paginas\Teclado_Pantalla.cs">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Paginas\Pagina_añadir_boton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Paginas\Pagina_Botones.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Paginas\Pagina_Juegos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Paginas\Pagina_main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Paginas\Pagina_modificar_botones.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Paginas\Pagina_Teclado_Pantalla.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
