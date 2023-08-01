@@ -27,16 +27,21 @@ namespace Eye_tracker_WPF_app
     {
 
         Pagina_main Pgmain = new Pagina_main ();
+
+        public void Initialize()
+        {
+            string pythonDll = @"C:\\Python311\\python311.dll";
+            Environment.SetEnvironmentVariable("PYTHONNET_PYDLL", pythonDll);
+            PythonEngine.Initialize();
+        }
         public MainWindow()
         {
 
-            Runtime.PythonDLL = "C:\\Python311\\python311.dll";
-            PythonEngine.Initialize();
 
             /* Handlers for window events */
             this.Closed += Windows_FinishProgram;
 
-
+            Initialize();
             InitializeComponent();
             MiFrame.NavigationService.Navigate(Pgmain);
         }

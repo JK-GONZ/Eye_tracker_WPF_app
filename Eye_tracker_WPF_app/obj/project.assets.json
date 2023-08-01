@@ -29,21 +29,198 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MindFusion.Keyboard.Wpf/5.0.3": {
+      "MindFusion.Keyboard/5.0.2": {
         "type": "package",
         "compile": {
-          "lib/net6.0-windows7/MindFusion.Keyboard.Wpf.dll": {
+          "lib/net6.0/MindFusion.Keyboard.WinForms.dll": {
             "related": ".xml"
           },
-          "lib/net6.0-windows7/MindFusion.Licensing.dll": {},
-          "lib/net6.0-windows7/MindFusion.Themes.Wpf.dll": {}
+          "lib/net6.0/MindFusion.Licensing.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows7/MindFusion.Keyboard.Wpf.dll": {
+          "lib/net6.0/MindFusion.Keyboard.WinForms.dll": {
             "related": ".xml"
           },
-          "lib/net6.0-windows7/MindFusion.Licensing.dll": {},
-          "lib/net6.0-windows7/MindFusion.Themes.Wpf.dll": {}
+          "lib/net6.0/MindFusion.Licensing.dll": {}
+        }
+      },
+      "MindFusion.Pack.WinForms/2022.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MindFusion.Barcodes.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Barcodes.dll": {
+            "related": ".WinForms.xml"
+          },
+          "lib/net6.0/MindFusion.Charting.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Charting.dll": {
+            "related": ".WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Common.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Common.dll": {
+            "related": ".WinForms.xml"
+          },
+          "lib/net6.0/MindFusion.DataBinding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.Export.Pdf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.Export.Svg.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.Export.Visio.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.WinForms.Controls.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.WinForms.dll": {
+            "related": ".Controls.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.dll": {
+            "related": ".EffectsProvider.xml;.Export.Dxf.xml;.Export.Excel.xml;.Export.Pdf.xml;.Export.Svg.xml;.Export.Swf.xml;.Export.Visio.xml;.Export.Wmf.xml;.Import.Draw.xml;.Import.Svg.xml;.Import.Visio.xml;.WinForms.Controls.xml;.WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Gauges.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Gauges.dll": {
+            "related": ".WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Graphs.dll": {},
+          "lib/net6.0/MindFusion.Keyboard.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Licensing.dll": {},
+          "lib/net6.0/MindFusion.Mapping.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Mapping.dll": {
+            "related": ".WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Pdf.dll": {},
+          "lib/net6.0/MindFusion.Reporting.Design.dll": {},
+          "lib/net6.0/MindFusion.Reporting.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Reporting.dll": {
+            "related": ".Excel.xml;.Html.xml;.Pdf.xml;.WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Scheduling.Pdf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Scheduling.dll": {
+            "related": ".Excel.xml;.Outlook.xml;.Pdf.xml;.Reporting.xml;.WinForms.StandardForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Scripting.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Spreadsheet.WinForms.StandardForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Spreadsheet.WinForms.dll": {
+            "related": ".StandardForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Svg.dll": {},
+          "lib/net6.0/MindFusion.UI.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Vsx.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MindFusion.Barcodes.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Barcodes.dll": {
+            "related": ".WinForms.xml"
+          },
+          "lib/net6.0/MindFusion.Charting.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Charting.dll": {
+            "related": ".WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Common.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Common.dll": {
+            "related": ".WinForms.xml"
+          },
+          "lib/net6.0/MindFusion.DataBinding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.Export.Pdf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.Export.Svg.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.Export.Visio.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.WinForms.Controls.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.WinForms.dll": {
+            "related": ".Controls.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Diagramming.dll": {
+            "related": ".EffectsProvider.xml;.Export.Dxf.xml;.Export.Excel.xml;.Export.Pdf.xml;.Export.Svg.xml;.Export.Swf.xml;.Export.Visio.xml;.Export.Wmf.xml;.Import.Draw.xml;.Import.Svg.xml;.Import.Visio.xml;.WinForms.Controls.xml;.WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Gauges.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Gauges.dll": {
+            "related": ".WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Graphs.dll": {},
+          "lib/net6.0/MindFusion.Keyboard.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Licensing.dll": {},
+          "lib/net6.0/MindFusion.Mapping.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Mapping.dll": {
+            "related": ".WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Pdf.dll": {},
+          "lib/net6.0/MindFusion.Reporting.Design.dll": {},
+          "lib/net6.0/MindFusion.Reporting.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Reporting.dll": {
+            "related": ".Excel.xml;.Html.xml;.Pdf.xml;.WinForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Scheduling.Pdf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Scheduling.dll": {
+            "related": ".Excel.xml;.Outlook.xml;.Pdf.xml;.Reporting.xml;.WinForms.StandardForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Scripting.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Spreadsheet.WinForms.StandardForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Spreadsheet.WinForms.dll": {
+            "related": ".StandardForms.xml;.xml"
+          },
+          "lib/net6.0/MindFusion.Svg.dll": {},
+          "lib/net6.0/MindFusion.UI.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MindFusion.Vsx.dll": {
+            "related": ".xml"
+          }
         }
       },
       "python/3.11.4": {
@@ -283,31 +460,424 @@
         "runtime.json"
       ]
     },
-    "MindFusion.Keyboard.Wpf/5.0.3": {
-      "sha512": "E+JqmSnK1P3FAuMKqiWz0+9RHy3WwQdTzrwvX1lH6S21wRFhLjxpQCRsnFq1Y+dQTSez4EE2OYQrMNq00fPV+g==",
+    "MindFusion.Keyboard/5.0.2": {
+      "sha512": "r8Cx6aU63ty4vRhf5VLpZSfuAx2U4zMOelIpq5+OHcXBHUeiVlsq8+MZi5DPWhETBmW/Si9K7OwvRnjoXeu6dw==",
       "type": "package",
-      "path": "mindfusion.keyboard.wpf/5.0.3",
+      "path": "mindfusion.keyboard/5.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net40/MindFusion.Keyboard.Wpf.dll",
-        "lib/net40/MindFusion.Keyboard.Wpf.xml",
+        "lib/net40/MindFusion.Keyboard.WinForms.dll",
+        "lib/net40/MindFusion.Keyboard.WinForms.xml",
         "lib/net40/MindFusion.Licensing.dll",
-        "lib/net40/MindFusion.Themes.Wpf.dll",
-        "lib/net5.0-windows7/MindFusion.Keyboard.Wpf.dll",
-        "lib/net5.0-windows7/MindFusion.Keyboard.Wpf.xml",
-        "lib/net5.0-windows7/MindFusion.Licensing.dll",
-        "lib/net5.0-windows7/MindFusion.Themes.Wpf.dll",
-        "lib/net6.0-windows7/MindFusion.Keyboard.Wpf.dll",
-        "lib/net6.0-windows7/MindFusion.Keyboard.Wpf.xml",
-        "lib/net6.0-windows7/MindFusion.Licensing.dll",
-        "lib/net6.0-windows7/MindFusion.Themes.Wpf.dll",
-        "lib/netcoreapp3.1/MindFusion.Keyboard.Wpf.dll",
-        "lib/netcoreapp3.1/MindFusion.Keyboard.Wpf.xml",
-        "lib/netcoreapp3.1/MindFusion.Licensing.dll",
-        "lib/netcoreapp3.1/MindFusion.Themes.Wpf.dll",
-        "mindfusion.keyboard.wpf.5.0.3.nupkg.sha512",
-        "mindfusion.keyboard.wpf.nuspec"
+        "lib/net5.0/MindFusion.Keyboard.WinForms.dll",
+        "lib/net5.0/MindFusion.Keyboard.WinForms.xml",
+        "lib/net5.0/MindFusion.Licensing.dll",
+        "lib/net6.0/MindFusion.Keyboard.WinForms.dll",
+        "lib/net6.0/MindFusion.Keyboard.WinForms.xml",
+        "lib/net6.0/MindFusion.Licensing.dll",
+        "lib/netcoreapp3.0/MindFusion.Keyboard.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Keyboard.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Licensing.dll",
+        "mindfusion.keyboard.5.0.2.nupkg.sha512",
+        "mindfusion.keyboard.nuspec"
+      ]
+    },
+    "MindFusion.Pack.WinForms/2022.2.0": {
+      "sha512": "a41FzbWxLbkHAwDWEB6GIRowtI2YYTj/rtw9T7McRjPxZV5KDTv/C3wEA+VzHCL8DPq9jPtIENvNFGbTAXE7Xg==",
+      "type": "package",
+      "path": "mindfusion.pack.winforms/2022.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Office.Interop.Outlook.dll",
+        "lib/net45/MindFusion.Barcodes.WinForms.dll",
+        "lib/net45/MindFusion.Barcodes.WinForms.xml",
+        "lib/net45/MindFusion.Barcodes.dll",
+        "lib/net45/MindFusion.Charting.WinForms.dll",
+        "lib/net45/MindFusion.Charting.WinForms.xml",
+        "lib/net45/MindFusion.Charting.dll",
+        "lib/net45/MindFusion.Charting.xml",
+        "lib/net45/MindFusion.Common.WinForms.dll",
+        "lib/net45/MindFusion.Common.WinForms.xml",
+        "lib/net45/MindFusion.Common.dll",
+        "lib/net45/MindFusion.DataBinding.dll",
+        "lib/net45/MindFusion.DataBinding.xml",
+        "lib/net45/MindFusion.Diagramming.EffectsProvider.dll",
+        "lib/net45/MindFusion.Diagramming.EffectsProvider.xml",
+        "lib/net45/MindFusion.Diagramming.Export.Dxf.dll",
+        "lib/net45/MindFusion.Diagramming.Export.Dxf.xml",
+        "lib/net45/MindFusion.Diagramming.Export.Excel.dll",
+        "lib/net45/MindFusion.Diagramming.Export.Excel.xml",
+        "lib/net45/MindFusion.Diagramming.Export.Pdf.dll",
+        "lib/net45/MindFusion.Diagramming.Export.Pdf.xml",
+        "lib/net45/MindFusion.Diagramming.Export.Svg.dll",
+        "lib/net45/MindFusion.Diagramming.Export.Svg.xml",
+        "lib/net45/MindFusion.Diagramming.Export.Swf.dll",
+        "lib/net45/MindFusion.Diagramming.Export.Swf.xml",
+        "lib/net45/MindFusion.Diagramming.Export.Visio.dll",
+        "lib/net45/MindFusion.Diagramming.Export.Visio.xml",
+        "lib/net45/MindFusion.Diagramming.Export.Wmf.dll",
+        "lib/net45/MindFusion.Diagramming.Export.Wmf.xml",
+        "lib/net45/MindFusion.Diagramming.Import.Draw.dll",
+        "lib/net45/MindFusion.Diagramming.Import.Draw.xml",
+        "lib/net45/MindFusion.Diagramming.Import.Svg.dll",
+        "lib/net45/MindFusion.Diagramming.Import.Svg.xml",
+        "lib/net45/MindFusion.Diagramming.Import.Visio.dll",
+        "lib/net45/MindFusion.Diagramming.Import.Visio.xml",
+        "lib/net45/MindFusion.Diagramming.WinForms.Controls.Design.dll",
+        "lib/net45/MindFusion.Diagramming.WinForms.Controls.dll",
+        "lib/net45/MindFusion.Diagramming.WinForms.Controls.xml",
+        "lib/net45/MindFusion.Diagramming.WinForms.Design.dll",
+        "lib/net45/MindFusion.Diagramming.WinForms.dll",
+        "lib/net45/MindFusion.Diagramming.WinForms.xml",
+        "lib/net45/MindFusion.Diagramming.dll",
+        "lib/net45/MindFusion.Diagramming.xml",
+        "lib/net45/MindFusion.Excel.dll",
+        "lib/net45/MindFusion.Excel.xml",
+        "lib/net45/MindFusion.Gauges.WinForms.dll",
+        "lib/net45/MindFusion.Gauges.WinForms.xml",
+        "lib/net45/MindFusion.Gauges.dll",
+        "lib/net45/MindFusion.Gauges.xml",
+        "lib/net45/MindFusion.Graphs.dll",
+        "lib/net45/MindFusion.HolidayProviders.dll",
+        "lib/net45/MindFusion.HolidayProviders.xml",
+        "lib/net45/MindFusion.Keyboard.WinForms.dll",
+        "lib/net45/MindFusion.Keyboard.WinForms.xml",
+        "lib/net45/MindFusion.Licensing.dll",
+        "lib/net45/MindFusion.Mapping.WinForms.dll",
+        "lib/net45/MindFusion.Mapping.WinForms.xml",
+        "lib/net45/MindFusion.Mapping.dll",
+        "lib/net45/MindFusion.Mapping.xml",
+        "lib/net45/MindFusion.Pdf.dll",
+        "lib/net45/MindFusion.Reporting.Editor.dll",
+        "lib/net45/MindFusion.Reporting.Excel.dll",
+        "lib/net45/MindFusion.Reporting.Excel.xml",
+        "lib/net45/MindFusion.Reporting.Html.dll",
+        "lib/net45/MindFusion.Reporting.Html.xml",
+        "lib/net45/MindFusion.Reporting.Pdf.dll",
+        "lib/net45/MindFusion.Reporting.Pdf.xml",
+        "lib/net45/MindFusion.Reporting.WinForms.dll",
+        "lib/net45/MindFusion.Reporting.WinForms.xml",
+        "lib/net45/MindFusion.Reporting.dll",
+        "lib/net45/MindFusion.Reporting.xml",
+        "lib/net45/MindFusion.Scheduling.Excel.dll",
+        "lib/net45/MindFusion.Scheduling.Excel.xml",
+        "lib/net45/MindFusion.Scheduling.Outlook.dll",
+        "lib/net45/MindFusion.Scheduling.Outlook.xml",
+        "lib/net45/MindFusion.Scheduling.Pdf.dll",
+        "lib/net45/MindFusion.Scheduling.Pdf.xml",
+        "lib/net45/MindFusion.Scheduling.Reporting.dll",
+        "lib/net45/MindFusion.Scheduling.Reporting.xml",
+        "lib/net45/MindFusion.Scheduling.WinForms.StandardForms.dll",
+        "lib/net45/MindFusion.Scheduling.WinForms.StandardForms.xml",
+        "lib/net45/MindFusion.Scheduling.dll",
+        "lib/net45/MindFusion.Scheduling.xml",
+        "lib/net45/MindFusion.Scripting.dll",
+        "lib/net45/MindFusion.Scripting.xml",
+        "lib/net45/MindFusion.Spreadsheet.WinForms.StandardForms.dll",
+        "lib/net45/MindFusion.Spreadsheet.WinForms.StandardForms.xml",
+        "lib/net45/MindFusion.Spreadsheet.WinForms.dll",
+        "lib/net45/MindFusion.Spreadsheet.WinForms.xml",
+        "lib/net45/MindFusion.Svg.dll",
+        "lib/net45/MindFusion.Swf.dll",
+        "lib/net45/MindFusion.Tools.ShapeDesigner.dll",
+        "lib/net45/MindFusion.UI.WinForms.dll",
+        "lib/net45/MindFusion.UI.WinForms.xml",
+        "lib/net45/MindFusion.Vsx.dll",
+        "lib/net45/MindFusion.Vsx.xml",
+        "lib/net45/MindFusion.Zip.dll",
+        "lib/net45/Office.dll",
+        "lib/net5.0/Microsoft.Office.Interop.Outlook.dll",
+        "lib/net5.0/MindFusion.Barcodes.WinForms.dll",
+        "lib/net5.0/MindFusion.Barcodes.WinForms.xml",
+        "lib/net5.0/MindFusion.Barcodes.dll",
+        "lib/net5.0/MindFusion.Charting.WinForms.dll",
+        "lib/net5.0/MindFusion.Charting.WinForms.xml",
+        "lib/net5.0/MindFusion.Charting.dll",
+        "lib/net5.0/MindFusion.Charting.xml",
+        "lib/net5.0/MindFusion.Common.WinForms.dll",
+        "lib/net5.0/MindFusion.Common.WinForms.xml",
+        "lib/net5.0/MindFusion.Common.dll",
+        "lib/net5.0/MindFusion.DataBinding.dll",
+        "lib/net5.0/MindFusion.DataBinding.xml",
+        "lib/net5.0/MindFusion.Diagramming.EffectsProvider.dll",
+        "lib/net5.0/MindFusion.Diagramming.EffectsProvider.xml",
+        "lib/net5.0/MindFusion.Diagramming.Export.Dxf.dll",
+        "lib/net5.0/MindFusion.Diagramming.Export.Dxf.xml",
+        "lib/net5.0/MindFusion.Diagramming.Export.Excel.dll",
+        "lib/net5.0/MindFusion.Diagramming.Export.Excel.xml",
+        "lib/net5.0/MindFusion.Diagramming.Export.Pdf.dll",
+        "lib/net5.0/MindFusion.Diagramming.Export.Pdf.xml",
+        "lib/net5.0/MindFusion.Diagramming.Export.Svg.dll",
+        "lib/net5.0/MindFusion.Diagramming.Export.Svg.xml",
+        "lib/net5.0/MindFusion.Diagramming.Export.Swf.dll",
+        "lib/net5.0/MindFusion.Diagramming.Export.Swf.xml",
+        "lib/net5.0/MindFusion.Diagramming.Export.Visio.dll",
+        "lib/net5.0/MindFusion.Diagramming.Export.Visio.xml",
+        "lib/net5.0/MindFusion.Diagramming.Export.Wmf.dll",
+        "lib/net5.0/MindFusion.Diagramming.Export.Wmf.xml",
+        "lib/net5.0/MindFusion.Diagramming.Import.Draw.dll",
+        "lib/net5.0/MindFusion.Diagramming.Import.Draw.xml",
+        "lib/net5.0/MindFusion.Diagramming.Import.Svg.dll",
+        "lib/net5.0/MindFusion.Diagramming.Import.Svg.xml",
+        "lib/net5.0/MindFusion.Diagramming.Import.Visio.dll",
+        "lib/net5.0/MindFusion.Diagramming.Import.Visio.xml",
+        "lib/net5.0/MindFusion.Diagramming.WinForms.Controls.dll",
+        "lib/net5.0/MindFusion.Diagramming.WinForms.Controls.xml",
+        "lib/net5.0/MindFusion.Diagramming.WinForms.dll",
+        "lib/net5.0/MindFusion.Diagramming.WinForms.xml",
+        "lib/net5.0/MindFusion.Diagramming.dll",
+        "lib/net5.0/MindFusion.Diagramming.xml",
+        "lib/net5.0/MindFusion.Excel.dll",
+        "lib/net5.0/MindFusion.Excel.xml",
+        "lib/net5.0/MindFusion.Gauges.WinForms.dll",
+        "lib/net5.0/MindFusion.Gauges.WinForms.xml",
+        "lib/net5.0/MindFusion.Gauges.dll",
+        "lib/net5.0/MindFusion.Gauges.xml",
+        "lib/net5.0/MindFusion.Graphs.dll",
+        "lib/net5.0/MindFusion.HolidayProviders.dll",
+        "lib/net5.0/MindFusion.HolidayProviders.xml",
+        "lib/net5.0/MindFusion.Keyboard.WinForms.dll",
+        "lib/net5.0/MindFusion.Keyboard.WinForms.xml",
+        "lib/net5.0/MindFusion.Licensing.dll",
+        "lib/net5.0/MindFusion.Mapping.WinForms.dll",
+        "lib/net5.0/MindFusion.Mapping.WinForms.xml",
+        "lib/net5.0/MindFusion.Mapping.dll",
+        "lib/net5.0/MindFusion.Mapping.xml",
+        "lib/net5.0/MindFusion.Pdf.dll",
+        "lib/net5.0/MindFusion.Reporting.Design.dll",
+        "lib/net5.0/MindFusion.Reporting.Editor.dll",
+        "lib/net5.0/MindFusion.Reporting.Excel.dll",
+        "lib/net5.0/MindFusion.Reporting.Excel.xml",
+        "lib/net5.0/MindFusion.Reporting.Html.dll",
+        "lib/net5.0/MindFusion.Reporting.Html.xml",
+        "lib/net5.0/MindFusion.Reporting.Pdf.dll",
+        "lib/net5.0/MindFusion.Reporting.Pdf.xml",
+        "lib/net5.0/MindFusion.Reporting.WinForms.dll",
+        "lib/net5.0/MindFusion.Reporting.WinForms.xml",
+        "lib/net5.0/MindFusion.Reporting.dll",
+        "lib/net5.0/MindFusion.Reporting.xml",
+        "lib/net5.0/MindFusion.Scheduling.Excel.dll",
+        "lib/net5.0/MindFusion.Scheduling.Excel.xml",
+        "lib/net5.0/MindFusion.Scheduling.Outlook.dll",
+        "lib/net5.0/MindFusion.Scheduling.Outlook.xml",
+        "lib/net5.0/MindFusion.Scheduling.Pdf.dll",
+        "lib/net5.0/MindFusion.Scheduling.Pdf.xml",
+        "lib/net5.0/MindFusion.Scheduling.Reporting.dll",
+        "lib/net5.0/MindFusion.Scheduling.Reporting.xml",
+        "lib/net5.0/MindFusion.Scheduling.WinForms.StandardForms.dll",
+        "lib/net5.0/MindFusion.Scheduling.WinForms.StandardForms.xml",
+        "lib/net5.0/MindFusion.Scheduling.dll",
+        "lib/net5.0/MindFusion.Scheduling.xml",
+        "lib/net5.0/MindFusion.Scripting.dll",
+        "lib/net5.0/MindFusion.Scripting.xml",
+        "lib/net5.0/MindFusion.Spreadsheet.WinForms.StandardForms.dll",
+        "lib/net5.0/MindFusion.Spreadsheet.WinForms.StandardForms.xml",
+        "lib/net5.0/MindFusion.Spreadsheet.WinForms.dll",
+        "lib/net5.0/MindFusion.Spreadsheet.WinForms.xml",
+        "lib/net5.0/MindFusion.Svg.dll",
+        "lib/net5.0/MindFusion.Swf.dll",
+        "lib/net5.0/MindFusion.UI.WinForms.dll",
+        "lib/net5.0/MindFusion.UI.WinForms.xml",
+        "lib/net5.0/MindFusion.Vsx.dll",
+        "lib/net5.0/MindFusion.Vsx.xml",
+        "lib/net5.0/MindFusion.Zip.dll",
+        "lib/net5.0/Office.dll",
+        "lib/net6.0/Microsoft.Office.Interop.Outlook.dll",
+        "lib/net6.0/MindFusion.Barcodes.WinForms.dll",
+        "lib/net6.0/MindFusion.Barcodes.WinForms.xml",
+        "lib/net6.0/MindFusion.Barcodes.dll",
+        "lib/net6.0/MindFusion.Charting.WinForms.dll",
+        "lib/net6.0/MindFusion.Charting.WinForms.xml",
+        "lib/net6.0/MindFusion.Charting.dll",
+        "lib/net6.0/MindFusion.Charting.xml",
+        "lib/net6.0/MindFusion.Common.WinForms.dll",
+        "lib/net6.0/MindFusion.Common.WinForms.xml",
+        "lib/net6.0/MindFusion.Common.dll",
+        "lib/net6.0/MindFusion.DataBinding.dll",
+        "lib/net6.0/MindFusion.DataBinding.xml",
+        "lib/net6.0/MindFusion.Diagramming.EffectsProvider.dll",
+        "lib/net6.0/MindFusion.Diagramming.EffectsProvider.xml",
+        "lib/net6.0/MindFusion.Diagramming.Export.Dxf.dll",
+        "lib/net6.0/MindFusion.Diagramming.Export.Dxf.xml",
+        "lib/net6.0/MindFusion.Diagramming.Export.Excel.dll",
+        "lib/net6.0/MindFusion.Diagramming.Export.Excel.xml",
+        "lib/net6.0/MindFusion.Diagramming.Export.Pdf.dll",
+        "lib/net6.0/MindFusion.Diagramming.Export.Pdf.xml",
+        "lib/net6.0/MindFusion.Diagramming.Export.Svg.dll",
+        "lib/net6.0/MindFusion.Diagramming.Export.Svg.xml",
+        "lib/net6.0/MindFusion.Diagramming.Export.Swf.dll",
+        "lib/net6.0/MindFusion.Diagramming.Export.Swf.xml",
+        "lib/net6.0/MindFusion.Diagramming.Export.Visio.dll",
+        "lib/net6.0/MindFusion.Diagramming.Export.Visio.xml",
+        "lib/net6.0/MindFusion.Diagramming.Export.Wmf.dll",
+        "lib/net6.0/MindFusion.Diagramming.Export.Wmf.xml",
+        "lib/net6.0/MindFusion.Diagramming.Import.Draw.dll",
+        "lib/net6.0/MindFusion.Diagramming.Import.Draw.xml",
+        "lib/net6.0/MindFusion.Diagramming.Import.Svg.dll",
+        "lib/net6.0/MindFusion.Diagramming.Import.Svg.xml",
+        "lib/net6.0/MindFusion.Diagramming.Import.Visio.dll",
+        "lib/net6.0/MindFusion.Diagramming.Import.Visio.xml",
+        "lib/net6.0/MindFusion.Diagramming.WinForms.Controls.dll",
+        "lib/net6.0/MindFusion.Diagramming.WinForms.Controls.xml",
+        "lib/net6.0/MindFusion.Diagramming.WinForms.dll",
+        "lib/net6.0/MindFusion.Diagramming.WinForms.xml",
+        "lib/net6.0/MindFusion.Diagramming.dll",
+        "lib/net6.0/MindFusion.Diagramming.xml",
+        "lib/net6.0/MindFusion.Excel.dll",
+        "lib/net6.0/MindFusion.Excel.xml",
+        "lib/net6.0/MindFusion.Gauges.WinForms.dll",
+        "lib/net6.0/MindFusion.Gauges.WinForms.xml",
+        "lib/net6.0/MindFusion.Gauges.dll",
+        "lib/net6.0/MindFusion.Gauges.xml",
+        "lib/net6.0/MindFusion.Graphs.dll",
+        "lib/net6.0/MindFusion.HolidayProviders.dll",
+        "lib/net6.0/MindFusion.HolidayProviders.xml",
+        "lib/net6.0/MindFusion.Keyboard.WinForms.dll",
+        "lib/net6.0/MindFusion.Keyboard.WinForms.xml",
+        "lib/net6.0/MindFusion.Licensing.dll",
+        "lib/net6.0/MindFusion.Mapping.WinForms.dll",
+        "lib/net6.0/MindFusion.Mapping.WinForms.xml",
+        "lib/net6.0/MindFusion.Mapping.dll",
+        "lib/net6.0/MindFusion.Mapping.xml",
+        "lib/net6.0/MindFusion.Pdf.dll",
+        "lib/net6.0/MindFusion.Reporting.Design.dll",
+        "lib/net6.0/MindFusion.Reporting.Editor.dll",
+        "lib/net6.0/MindFusion.Reporting.Excel.dll",
+        "lib/net6.0/MindFusion.Reporting.Excel.xml",
+        "lib/net6.0/MindFusion.Reporting.Html.dll",
+        "lib/net6.0/MindFusion.Reporting.Html.xml",
+        "lib/net6.0/MindFusion.Reporting.Pdf.dll",
+        "lib/net6.0/MindFusion.Reporting.Pdf.xml",
+        "lib/net6.0/MindFusion.Reporting.WinForms.dll",
+        "lib/net6.0/MindFusion.Reporting.WinForms.xml",
+        "lib/net6.0/MindFusion.Reporting.dll",
+        "lib/net6.0/MindFusion.Reporting.xml",
+        "lib/net6.0/MindFusion.Scheduling.Excel.dll",
+        "lib/net6.0/MindFusion.Scheduling.Excel.xml",
+        "lib/net6.0/MindFusion.Scheduling.Outlook.dll",
+        "lib/net6.0/MindFusion.Scheduling.Outlook.xml",
+        "lib/net6.0/MindFusion.Scheduling.Pdf.dll",
+        "lib/net6.0/MindFusion.Scheduling.Pdf.xml",
+        "lib/net6.0/MindFusion.Scheduling.Reporting.dll",
+        "lib/net6.0/MindFusion.Scheduling.Reporting.xml",
+        "lib/net6.0/MindFusion.Scheduling.WinForms.StandardForms.dll",
+        "lib/net6.0/MindFusion.Scheduling.WinForms.StandardForms.xml",
+        "lib/net6.0/MindFusion.Scheduling.dll",
+        "lib/net6.0/MindFusion.Scheduling.xml",
+        "lib/net6.0/MindFusion.Scripting.dll",
+        "lib/net6.0/MindFusion.Scripting.xml",
+        "lib/net6.0/MindFusion.Spreadsheet.WinForms.StandardForms.dll",
+        "lib/net6.0/MindFusion.Spreadsheet.WinForms.StandardForms.xml",
+        "lib/net6.0/MindFusion.Spreadsheet.WinForms.dll",
+        "lib/net6.0/MindFusion.Spreadsheet.WinForms.xml",
+        "lib/net6.0/MindFusion.Svg.dll",
+        "lib/net6.0/MindFusion.Swf.dll",
+        "lib/net6.0/MindFusion.UI.WinForms.dll",
+        "lib/net6.0/MindFusion.UI.WinForms.xml",
+        "lib/net6.0/MindFusion.Vsx.dll",
+        "lib/net6.0/MindFusion.Vsx.xml",
+        "lib/net6.0/MindFusion.Zip.dll",
+        "lib/net6.0/Office.dll",
+        "lib/netcoreapp3.0/Microsoft.Office.Interop.Outlook.dll",
+        "lib/netcoreapp3.0/MindFusion.Barcodes.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Barcodes.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Barcodes.dll",
+        "lib/netcoreapp3.0/MindFusion.Charting.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Charting.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Charting.dll",
+        "lib/netcoreapp3.0/MindFusion.Charting.xml",
+        "lib/netcoreapp3.0/MindFusion.Common.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Common.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Common.dll",
+        "lib/netcoreapp3.0/MindFusion.DataBinding.dll",
+        "lib/netcoreapp3.0/MindFusion.DataBinding.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.EffectsProvider.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.EffectsProvider.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Dxf.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Dxf.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Excel.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Excel.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Pdf.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Pdf.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Svg.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Svg.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Swf.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Swf.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Visio.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Visio.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Wmf.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Export.Wmf.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Import.Draw.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Import.Draw.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Import.Svg.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Import.Svg.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Import.Visio.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.Import.Visio.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.WinForms.Controls.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.WinForms.Controls.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.dll",
+        "lib/netcoreapp3.0/MindFusion.Diagramming.xml",
+        "lib/netcoreapp3.0/MindFusion.Excel.dll",
+        "lib/netcoreapp3.0/MindFusion.Excel.xml",
+        "lib/netcoreapp3.0/MindFusion.Gauges.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Gauges.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Gauges.dll",
+        "lib/netcoreapp3.0/MindFusion.Gauges.xml",
+        "lib/netcoreapp3.0/MindFusion.Graphs.dll",
+        "lib/netcoreapp3.0/MindFusion.HolidayProviders.dll",
+        "lib/netcoreapp3.0/MindFusion.HolidayProviders.xml",
+        "lib/netcoreapp3.0/MindFusion.Keyboard.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Keyboard.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Licensing.dll",
+        "lib/netcoreapp3.0/MindFusion.Mapping.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Mapping.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Mapping.dll",
+        "lib/netcoreapp3.0/MindFusion.Mapping.xml",
+        "lib/netcoreapp3.0/MindFusion.Pdf.dll",
+        "lib/netcoreapp3.0/MindFusion.Reporting.Design.dll",
+        "lib/netcoreapp3.0/MindFusion.Reporting.Editor.dll",
+        "lib/netcoreapp3.0/MindFusion.Reporting.Excel.dll",
+        "lib/netcoreapp3.0/MindFusion.Reporting.Excel.xml",
+        "lib/netcoreapp3.0/MindFusion.Reporting.Html.dll",
+        "lib/netcoreapp3.0/MindFusion.Reporting.Html.xml",
+        "lib/netcoreapp3.0/MindFusion.Reporting.Pdf.dll",
+        "lib/netcoreapp3.0/MindFusion.Reporting.Pdf.xml",
+        "lib/netcoreapp3.0/MindFusion.Reporting.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Reporting.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Reporting.dll",
+        "lib/netcoreapp3.0/MindFusion.Reporting.xml",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.Excel.dll",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.Excel.xml",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.Outlook.dll",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.Outlook.xml",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.Pdf.dll",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.Pdf.xml",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.Reporting.dll",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.Reporting.xml",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.WinForms.StandardForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.WinForms.StandardForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.dll",
+        "lib/netcoreapp3.0/MindFusion.Scheduling.xml",
+        "lib/netcoreapp3.0/MindFusion.Scripting.dll",
+        "lib/netcoreapp3.0/MindFusion.Scripting.xml",
+        "lib/netcoreapp3.0/MindFusion.Spreadsheet.WinForms.StandardForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Spreadsheet.WinForms.StandardForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Spreadsheet.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.Spreadsheet.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Svg.dll",
+        "lib/netcoreapp3.0/MindFusion.Swf.dll",
+        "lib/netcoreapp3.0/MindFusion.UI.WinForms.dll",
+        "lib/netcoreapp3.0/MindFusion.UI.WinForms.xml",
+        "lib/netcoreapp3.0/MindFusion.Vsx.dll",
+        "lib/netcoreapp3.0/MindFusion.Vsx.xml",
+        "lib/netcoreapp3.0/MindFusion.Zip.dll",
+        "lib/netcoreapp3.0/Office.dll",
+        "mindfusion.pack.winforms.2022.2.0.nupkg.sha512",
+        "mindfusion.pack.winforms.nuspec"
       ]
     },
     "python/3.11.4": {
@@ -2618,7 +3188,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "MindFusion.Keyboard.Wpf >= 5.0.3",
+      "MindFusion.Keyboard >= 5.0.2",
+      "MindFusion.Pack.WinForms >= 2022.2.0",
       "python >= 3.11.4",
       "pythonnet >= 3.0.1"
     ]
@@ -2662,9 +3233,13 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
-          "MindFusion.Keyboard.Wpf": {
+          "MindFusion.Keyboard": {
             "target": "Package",
-            "version": "[5.0.3, )"
+            "version": "[5.0.2, )"
+          },
+          "MindFusion.Pack.WinForms": {
+            "target": "Package",
+            "version": "[2022.2.0, )"
           },
           "python": {
             "target": "Package",

@@ -16,6 +16,12 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 
+
+using System.Windows.Forms;
+using Microsoft.VisualBasic.Devices;
+
+
+
 namespace Eye_tracker_WPF_app.Paginas
 {
     /// <summary>
@@ -23,6 +29,8 @@ namespace Eye_tracker_WPF_app.Paginas
     /// </summary>
     public partial class Pagina_añadir_boton : Page
     {
+        private IButtonControl key;
+
         public Pagina_añadir_boton()
         {
             InitializeComponent();
@@ -36,30 +44,13 @@ namespace Eye_tracker_WPF_app.Paginas
         }
 
 
-        private Process _touchKeyboardProcess = null;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string touchKeyboardPath =
-                @"C:\Program Files\Common Files\Microsoft Shared\Ink\TabTip.exe";
+            Pagina_Teclado_Pantalla pagina_Teclado_Pantalla = new Pagina_Teclado_Pantalla();
 
-
-            //replace Process.Start line from the previous listing with
-            _touchKeyboardProcess = Process.Start(touchKeyboardPath);
-            this.LostFocus += TouchEnabledTextBox_LostFocus;
+            this.NavigationService.Navigate(pagina_Teclado_Pantalla);
         }
 
-        //add this at the end of TouchEnabledTextBox's constructor
-
-        //add this method as a member method of the class
-        private void TouchEnabledTextBox_LostFocus(object sender, RoutedEventArgs eventArgs)
-        {
-            if (_touchKeyboardProcess != null)
-            {
-                _touchKeyboardProcess.Kill();
-                //nullify the instance pointing to the now-invalid process
-                _touchKeyboardProcess = null;
-            }
-        }
 
      }
 }

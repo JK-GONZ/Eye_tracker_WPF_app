@@ -9,19 +9,147 @@
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "MindFusion.Keyboard.Wpf/5.0.3": {
+      "MindFusion.Keyboard/5.0.2": {
         "runtime": {
-          "lib/net6.0-windows7/MindFusion.Keyboard.Wpf.dll": {
-            "assemblyVersion": "5.0.3.600",
-            "fileVersion": "5.0.3.600"
+          "lib/net6.0/MindFusion.Keyboard.WinForms.dll": {
+            "assemblyVersion": "5.0.2.601",
+            "fileVersion": "5.0.2.601"
           },
-          "lib/net6.0-windows7/MindFusion.Licensing.dll": {
+          "lib/net6.0/MindFusion.Licensing.dll": {
+            "assemblyVersion": "1.0.6.500",
+            "fileVersion": "1.0.6.500"
+          }
+        }
+      },
+      "MindFusion.Pack.WinForms/2022.2.0": {
+        "runtime": {
+          "lib/net6.0/MindFusion.Barcodes.WinForms.dll": {
+            "assemblyVersion": "1.0.3.600",
+            "fileVersion": "1.0.3.600"
+          },
+          "lib/net6.0/MindFusion.Barcodes.dll": {
+            "assemblyVersion": "1.0.3.600",
+            "fileVersion": "1.0.3.600"
+          },
+          "lib/net6.0/MindFusion.Charting.WinForms.dll": {
+            "assemblyVersion": "4.3.0.601",
+            "fileVersion": "4.3.0.601"
+          },
+          "lib/net6.0/MindFusion.Charting.dll": {
+            "assemblyVersion": "4.3.0.601",
+            "fileVersion": "4.3.0.601"
+          },
+          "lib/net6.0/MindFusion.Common.WinForms.dll": {
+            "assemblyVersion": "1.0.3.600",
+            "fileVersion": "1.0.3.600"
+          },
+          "lib/net6.0/MindFusion.Common.dll": {
+            "assemblyVersion": "1.3.5.602",
+            "fileVersion": "1.3.5.602"
+          },
+          "lib/net6.0/MindFusion.DataBinding.dll": {
+            "assemblyVersion": "2.5.4.600",
+            "fileVersion": "2.5.4.600"
+          },
+          "lib/net6.0/MindFusion.Diagramming.Export.Pdf.dll": {
+            "assemblyVersion": "6.8.4.600",
+            "fileVersion": "6.8.4.600"
+          },
+          "lib/net6.0/MindFusion.Diagramming.Export.Svg.dll": {
+            "assemblyVersion": "6.8.4.600",
+            "fileVersion": "6.8.4.600"
+          },
+          "lib/net6.0/MindFusion.Diagramming.Export.Visio.dll": {
+            "assemblyVersion": "6.8.4.600",
+            "fileVersion": "6.8.4.600"
+          },
+          "lib/net6.0/MindFusion.Diagramming.WinForms.Controls.dll": {
+            "assemblyVersion": "6.8.4.600",
+            "fileVersion": "6.8.4.600"
+          },
+          "lib/net6.0/MindFusion.Diagramming.WinForms.dll": {
+            "assemblyVersion": "6.8.4.600",
+            "fileVersion": "6.8.4.600"
+          },
+          "lib/net6.0/MindFusion.Diagramming.dll": {
+            "assemblyVersion": "6.8.4.600",
+            "fileVersion": "6.8.4.600"
+          },
+          "lib/net6.0/MindFusion.Gauges.WinForms.dll": {
+            "assemblyVersion": "1.0.1.600",
+            "fileVersion": "1.0.1.600"
+          },
+          "lib/net6.0/MindFusion.Gauges.dll": {
+            "assemblyVersion": "1.0.1.600",
+            "fileVersion": "1.0.1.600"
+          },
+          "lib/net6.0/MindFusion.Graphs.dll": {
+            "assemblyVersion": "2.3.3.600",
+            "fileVersion": "2.3.3.600"
+          },
+          "lib/net6.0/MindFusion.Keyboard.WinForms.dll": {
+            "assemblyVersion": "5.0.2.600",
+            "fileVersion": "5.0.2.600"
+          },
+          "lib/net6.0/MindFusion.Licensing.dll": {
             "assemblyVersion": "1.0.6.500",
             "fileVersion": "1.0.6.500"
           },
-          "lib/net6.0-windows7/MindFusion.Themes.Wpf.dll": {
-            "assemblyVersion": "1.1.3.600",
-            "fileVersion": "1.1.3.600"
+          "lib/net6.0/MindFusion.Mapping.WinForms.dll": {
+            "assemblyVersion": "2.0.2.600",
+            "fileVersion": "2.0.2.600"
+          },
+          "lib/net6.0/MindFusion.Mapping.dll": {
+            "assemblyVersion": "2.0.3.600",
+            "fileVersion": "2.0.3.600"
+          },
+          "lib/net6.0/MindFusion.Pdf.dll": {
+            "assemblyVersion": "1.3.2.600",
+            "fileVersion": "1.3.2.600"
+          },
+          "lib/net6.0/MindFusion.Reporting.Design.dll": {
+            "assemblyVersion": "2.5.3.600",
+            "fileVersion": "2.5.3.600"
+          },
+          "lib/net6.0/MindFusion.Reporting.WinForms.dll": {
+            "assemblyVersion": "2.5.4.600",
+            "fileVersion": "2.5.4.600"
+          },
+          "lib/net6.0/MindFusion.Reporting.dll": {
+            "assemblyVersion": "2.5.4.600",
+            "fileVersion": "2.5.4.600"
+          },
+          "lib/net6.0/MindFusion.Scheduling.Pdf.dll": {
+            "assemblyVersion": "5.8.2.600",
+            "fileVersion": "5.8.2.600"
+          },
+          "lib/net6.0/MindFusion.Scheduling.dll": {
+            "assemblyVersion": "5.8.2.600",
+            "fileVersion": "5.8.2.600"
+          },
+          "lib/net6.0/MindFusion.Scripting.dll": {
+            "assemblyVersion": "1.0.3.600",
+            "fileVersion": "1.0.3.600"
+          },
+          "lib/net6.0/MindFusion.Spreadsheet.WinForms.StandardForms.dll": {
+            "assemblyVersion": "1.7.3.601",
+            "fileVersion": "1.7.3.601"
+          },
+          "lib/net6.0/MindFusion.Spreadsheet.WinForms.dll": {
+            "assemblyVersion": "1.7.3.601",
+            "fileVersion": "1.7.3.601"
+          },
+          "lib/net6.0/MindFusion.Svg.dll": {
+            "assemblyVersion": "1.2.3.600",
+            "fileVersion": "1.2.3.600"
+          },
+          "lib/net6.0/MindFusion.UI.WinForms.dll": {
+            "assemblyVersion": "1.2.1.600",
+            "fileVersion": "1.2.1.600"
+          },
+          "lib/net6.0/MindFusion.Vsx.dll": {
+            "assemblyVersion": "1.0.4.600",
+            "fileVersion": "1.0.4.600"
           }
         }
       },
@@ -135,12 +263,19 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "MindFusion.Keyboard.Wpf/5.0.3": {
+    "MindFusion.Keyboard/5.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E+JqmSnK1P3FAuMKqiWz0+9RHy3WwQdTzrwvX1lH6S21wRFhLjxpQCRsnFq1Y+dQTSez4EE2OYQrMNq00fPV+g==",
-      "path": "mindfusion.keyboard.wpf/5.0.3",
-      "hashPath": "mindfusion.keyboard.wpf.5.0.3.nupkg.sha512"
+      "sha512": "sha512-r8Cx6aU63ty4vRhf5VLpZSfuAx2U4zMOelIpq5+OHcXBHUeiVlsq8+MZi5DPWhETBmW/Si9K7OwvRnjoXeu6dw==",
+      "path": "mindfusion.keyboard/5.0.2",
+      "hashPath": "mindfusion.keyboard.5.0.2.nupkg.sha512"
+    },
+    "MindFusion.Pack.WinForms/2022.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a41FzbWxLbkHAwDWEB6GIRowtI2YYTj/rtw9T7McRjPxZV5KDTv/C3wEA+VzHCL8DPq9jPtIENvNFGbTAXE7Xg==",
+      "path": "mindfusion.pack.winforms/2022.2.0",
+      "hashPath": "mindfusion.pack.winforms.2022.2.0.nupkg.sha512"
     },
     "python/3.11.4": {
       "type": "package",

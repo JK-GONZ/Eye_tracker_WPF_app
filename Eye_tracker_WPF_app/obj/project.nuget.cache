@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "bbFb3jNetx579o2nh+Gn169W056GgvAjwqLqmqNf3hvYcpUyx/Amh+KY4DOCxv0rl17/GOufSrRKHESt6WtGLA==",
+  "dgSpecHash": "EjR/84Lx2q77n/Hx6on6qxynQz1HmIHnfkJVMkgsnegq1xZ4X6LEcMXGHeRhPMtORYb9slGJiujCogMB5kKX4A==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\Eye_tracker_WPF_app\\Eye_tracker_WPF_app\\Eye_tracker_WPF_app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\jorge\\.nuget\\packages\\mindfusion.keyboard.wpf\\5.0.3\\mindfusion.keyboard.wpf.5.0.3.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\mindfusion.keyboard\\5.0.2\\mindfusion.keyboard.5.0.2.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\mindfusion.pack.winforms\\2022.2.0\\mindfusion.pack.winforms.2022.2.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\python\\3.11.4\\python.3.11.4.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\pythonnet\\3.0.1\\pythonnet.3.0.1.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",

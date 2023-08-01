@@ -16,5 +16,10 @@ namespace Eye_tracker_WPF_app.Paginas
         {
             InitializeComponent();
         }
+
+        private void virtualKeyboard1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

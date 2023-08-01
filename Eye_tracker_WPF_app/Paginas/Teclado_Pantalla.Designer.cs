@@ -1,6 +1,5 @@
 ﻿
 
-using MindFusion.UI.Wpf;
 
 namespace Eye_tracker_WPF_app.Paginas
 {
@@ -32,12 +31,37 @@ namespace Eye_tracker_WPF_app.Paginas
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Teclado_Pantalla";
+            MindFusion.UI.WinForms.KeyTemplate keyTemplate1 = new MindFusion.UI.WinForms.KeyTemplate();
+            this.virtualKeyboard1 = new MindFusion.UI.WinForms.VirtualKeyboard();
+            this.SuspendLayout();
+            // 
+            // virtualKeyboard1
+            // 
+            keyTemplate1.AlterCaseForeground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            keyTemplate1.CornerRadius = 0;
+            keyTemplate1.LowerCaseForeground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            keyTemplate1.UpperCaseForeground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.virtualKeyboard1.KeyTemplate = keyTemplate1;
+            this.virtualKeyboard1.Location = new System.Drawing.Point(12, 12);
+            this.virtualKeyboard1.Name = "virtualKeyboard1";
+            this.virtualKeyboard1.Size = new System.Drawing.Size(950, 409);
+            this.virtualKeyboard1.TabIndex = 0;
+            this.virtualKeyboard1.TabStop = false;
+            this.virtualKeyboard1.TemplateLayout = null;
+            this.virtualKeyboard1.Text = "virtualKeyboard";
+            this.virtualKeyboard1.Theme = MindFusion.UI.WinForms.Theme.Windows10;
+            this.virtualKeyboard1.Click += new System.EventHandler(this.virtualKeyboard1_Click);
+            // 
+            // Teclado_Pantalla
+            // 
+            this.ClientSize = new System.Drawing.Size(974, 433);
+            this.Controls.Add(this.virtualKeyboard1);
+            this.Name = "Teclado_Pantalla";
+            this.ResumeLayout(false);
+
         }
-        VirtualKeyboard virtualKeyboard
         #endregion
+
+        private MindFusion.UI.WinForms.VirtualKeyboard virtualKeyboard1;
     }
 }

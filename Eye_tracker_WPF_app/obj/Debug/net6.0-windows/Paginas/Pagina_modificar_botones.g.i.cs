@@ -78,7 +78,7 @@ namespace Eye_tracker_WPF_app.Paginas {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Eye_tracker_WPF_app;V1.0.0.0;component/paginas/pagina_modificar_botones.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Eye_tracker_WPF_app;component/paginas/pagina_modificar_botones.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Paginas\Pagina_modificar_botones.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

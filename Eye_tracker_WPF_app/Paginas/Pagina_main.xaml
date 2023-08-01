@@ -34,8 +34,6 @@
             <Button Grid.Column="1" Content="Ejecutar Python" Click="OnExecutePython" Width="500" Height="300" FontFamily="Roboto" FontSize="48" />
 
         </Grid>
-        <Button  Grid.Row="2" Content="Calibrar" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,40,0" Width="600" Height="120" FontSize="72" FontFamily="Roboto Medium"/>
-
-
+        <Button  Grid.Row="2" Content="Calibrar" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,40,0" Width="600" Height="120" FontSize="72" FontFamily="Roboto Medium" Click="Button_Click_Calibrar"/>
     </Grid>
 </Page>
