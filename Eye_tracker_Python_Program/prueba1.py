@@ -154,7 +154,6 @@ predictor = dlib.shape_predictor(args["shape_predictor"])
 
 
 
-
 # FUNCION "eye_aspecto_radio"
 # 	Su uso es para calcular la relacion de aspecto del ojo para
 #	luego usarlo para detectar los pestañeos
@@ -173,7 +172,6 @@ def eye_aspect_ratio(eye):
 
 
 
-
 # grab the indexes of the facial landmarks for the left and
 # right eye, respectively
 (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
@@ -187,17 +185,10 @@ vs = cv2.VideoCapture(0)
 
 
 
-
-
-
 # COMPROBACIÓN DE COORDENADAS MAXIMAS Y MINIMAS DEL FICHERO
 # "coordenadas_max_min.csv" generado en "calibracion.py"
 print(Fore.GREEN+"[######################## SEPARADOR ########################]\n"+Fore.RESET)
 print(Fore.BLUE+f"[INFO] Coordenadas maximas y minimas = X_max: {X_max} | X_min: {X_min} | Y_max: {Y_max} | Y_min: {Y_min}\n"+Fore.RESET)
-
-
-
-
 
 
 

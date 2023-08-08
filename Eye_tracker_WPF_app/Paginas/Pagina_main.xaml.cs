@@ -14,7 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using System.Windows.Forms;
 
 using Eye_tracker_WPF_app;
 using Eye_tracker_WPF_app.Paginas;
@@ -26,7 +26,6 @@ namespace Eye_tracker_WPF_app.Paginas
     /// <summary>
     /// Lógica de interacción para Pagina_main.xaml
     /// </summary>
-    /// 
 
     public partial class Pagina_main : Page
     {
@@ -40,96 +39,29 @@ namespace Eye_tracker_WPF_app.Paginas
 
         private void Button_Click_Botones(object sender, RoutedEventArgs e)
         {
-            Pagina_Botones PgBotones = new Pagina_Botones();
+            Pagina_Botones PgBotones = new Pagina_Botones(null);
 
             this.NavigationService.Navigate(PgBotones);
         }
 
         private void Button_Click_Juegos(object sender, RoutedEventArgs e)
         {
+            Pagina_Juegos pagina_Juegos = new Pagina_Juegos();
 
+            this.NavigationService.Navigate(pagina_Juegos);
         }
 
-        private void OnExecutePython(object sender, RoutedEventArgs e)
-        {
-            // Ruta al archivo Python que deseas ejecutar
-            string pythonScriptPath = "D:\\GitHub\\Eye_tracker_WPF_app\\prueba.py";
-
-
-            // Leer el contenido del archivo Python
-            string pythonCode;
-            try
-            {
-                pythonCode = File.ReadAllText(pythonScriptPath);
-            }
-            catch (FileNotFoundException)
-            {
-                MessageBox.Show("Archivo Python no encontrado.");
-                return;
-            }
-
-            // Ejecutar el script de Python
-            dynamic result;
-            using (Py.GIL()) // Permite el intercambio de datos entre C# y Python
-            {
-                dynamic locals = new PyDict();
-                dynamic globals = new PyDict();
-
-                PythonEngine.Exec(pythonCode, globals, locals);
-
-                result = locals.GetItem("resultado"); // "resultado" es el valor que se asigna en el script de Python
-            }
-
-            // Puedes hacer algo con el resultado si lo deseas
-            // por ejemplo, mostrarlo en un MessageBox
-            MessageBox.Show(result.ToString());
-
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_Cerrar(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();
-            
+            Pagina_Botones pagina_Botones = new Pagina_Botones(null);
+
+
+            pagina_Botones.EnviarMensajeApython("Cerrar");
             mainWindow.Windows_FinishProgram(sender, EventArgs.Empty);
         }
 
 
-        private void Button_Click_Calibrar1(object sender, RoutedEventArgs e)
-        {
-            // Ruta al archivo Python que deseas ejecutar
-            string pythonScriptPath = "D:\\GitHub\\Eye_tracker_WPF_app\\Eye_tracker_Python_Program\\calibracion.py";
-
-
-            // Leer el contenido del archivo Python
-            string pythonCode;
-            try
-            {
-                pythonCode = File.ReadAllText(pythonScriptPath);
-            }
-            catch (FileNotFoundException)
-            {
-                MessageBox.Show("Archivo Python no encontrado.");
-                return;
-            }
-
-            // Ejecutar el script de Python
-            dynamic result;
-            using (Py.GIL()) // Permite el intercambio de datos entre C# y Python
-            {
-                dynamic locals = new PyDict();
-                dynamic globals = new PyDict();
-
-                PythonEngine.Exec(pythonCode, globals, locals);
-
-
-                result = locals.GetItem("resultado"); // "resultado" es el valor que se asigna en el script de Python
-            }
-
-            // Puedes hacer algo con el resultado si lo deseas
-            // por ejemplo, mostrarlo en un MessageBox
-            MessageBox.Show(result.ToString());
-        }
 
         private void Button_Click_Calibrar(object sender, RoutedEventArgs e)
         {
@@ -153,7 +85,10 @@ namespace Eye_tracker_WPF_app.Paginas
                     Console.Write(result);
                 }
             }
-            MessageBox.Show(result.ToString());
+            //System.Windows.MessageBox.Show(result.ToString());
+
+            System.Windows.Forms.Application.Restart();
+            Process.GetCurrentProcess().Kill();
         }
     }
 

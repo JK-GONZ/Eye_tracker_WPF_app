@@ -23,6 +23,6 @@
         <Button Grid.Row="2" Height="120" Width="350" Content="Aceptar" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="72"  />
         <TextBlock  FontSize="84" Grid.Row="1" HorizontalAlignment="Left" Margin="140,110,0,0" TextWrapping="Wrap" Text="Texto: " VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="80" Margin="382,140,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Frase de prueba" VerticalAlignment="Top" Width="900" FontSize="50" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="382,292,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click" Height="247" Width="672"/>
+        <Button Content="Teclado en pantalla" HorizontalAlignment="Left" Margin="382,292,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click" Height="247" Width="672" FontSize="72"/>
     </Grid>
 </Page>

@@ -16,7 +16,7 @@
             <RowDefinition Height="250" />
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" x:Name="Titulo_ventana" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="EYE TRACKER ACCESIBILITY APP" VerticalAlignment="Top" FontSize="72" FontFamily="Roboto Medium"/>
-        <Button Grid.Row="0" Content="Cerrar" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,40,0" Width="250" Height="80" FontSize="50" FontFamily="Roboto Medium" Click="Button_Click"/>
+        <Button Grid.Row="0" Content="Cerrar" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,40,0" Width="250" Height="80" FontSize="50" FontFamily="Roboto Medium" Click="Button_Click_Cerrar"/>
 
 
 
@@ -31,7 +31,6 @@
 
 
             <Button Grid.Column="1" Content="Juegos" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="500" Height="300"  Click="Button_Click_Juegos" FontFamily="Roboto" FontSize="72"/>
-            <Button Grid.Column="1" Content="Ejecutar Python" Click="OnExecutePython" Width="500" Height="300" FontFamily="Roboto" FontSize="48" />
 
         </Grid>
         <Button  Grid.Row="2" Content="Calibrar" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,40,0" Width="600" Height="120" FontSize="72" FontFamily="Roboto Medium" Click="Button_Click_Calibrar"/>

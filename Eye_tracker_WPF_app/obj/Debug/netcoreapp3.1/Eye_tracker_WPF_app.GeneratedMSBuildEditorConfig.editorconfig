@@ -1,0 +1,9 @@
+is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = Eye_tracker_WPF_app.App
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
+build_property.RootNamespace = Eye_tracker_WPF_app
+build_property.ProjectDir = D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\

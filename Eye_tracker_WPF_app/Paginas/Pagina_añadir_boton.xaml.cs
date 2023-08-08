@@ -17,10 +17,6 @@ using System.Windows.Shapes;
 
 
 
-using System.Windows.Forms;
-using Microsoft.VisualBasic.Devices;
-
-
 
 namespace Eye_tracker_WPF_app.Paginas
 {
@@ -29,8 +25,6 @@ namespace Eye_tracker_WPF_app.Paginas
     /// </summary>
     public partial class Pagina_añadir_boton : Page
     {
-        private IButtonControl key;
-
         public Pagina_añadir_boton()
         {
             InitializeComponent();
@@ -50,7 +44,6 @@ namespace Eye_tracker_WPF_app.Paginas
 
             this.NavigationService.Navigate(pagina_Teclado_Pantalla);
         }
-
 
      }
 }

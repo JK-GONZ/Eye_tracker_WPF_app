@@ -15,12 +15,11 @@
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" x:Name="Titulo_ventana" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="MODIFICAR BOTONES" VerticalAlignment="Center" FontSize="72" FontFamily="Roboto Medium"/>
         <Button Grid.Row="0" Content="Atrás" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="40,0,0,0" Width="250" Height="80" FontSize="50" FontFamily="Roboto Medium" Click="Button_Click_Atras"/>
-        <Button Grid.Row="0" Content="Añadir nuevo boton" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,20,0" Width="500" Height="80" FontSize="50" FontFamily="Roboto Medium" Click="Button_Click_Añadir"/>
 
 
 
 
-        <Grid Name="Grid_botones" Grid.Row="1" Width="{Binding ActualWidth, ElementName=Grid_principal}">
+        <Grid Name="Grid_botones1" Grid.Row="1" Width="{Binding ActualWidth, ElementName=Grid_principal}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
@@ -31,16 +30,14 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="1. 'Ejemplo 1'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
-            <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="2. 'Ejemplo 2'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
-            <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="3. 'Ejemplo 3'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
-            <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="4. 'Ejemplo 4'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
-            <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="5. 'Ejemplo 5'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
-            <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="6. 'Ejemplo 6'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
-            <TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="7. 'Ejemplo 7'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
-            <TextBlock Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="8. 'Ejemplo 8'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
-
-
+            <TextBlock x:Name="Texto1" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="1. 'Ejemplo 1'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
+            <TextBlock x:Name="Texto2" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="2. 'Ejemplo 2'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
+            <TextBlock x:Name="Texto3" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="3. 'Ejemplo 3'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
+            <TextBlock x:Name="Texto4" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="4. 'Ejemplo 4'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
+            <TextBlock x:Name="Texto5" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="5. 'Ejemplo 5'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
+            <TextBlock x:Name="Texto6" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="6. 'Ejemplo 6'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
+            <TextBlock x:Name="Texto7" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="7. 'Ejemplo 7'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
+            <TextBlock x:Name="Texto8" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Width="700" Height="100" TextWrapping="Wrap" Text="8. 'Ejemplo 8'" VerticalAlignment="Center" Foreground="#000000" FontSize="72"/>
         </Grid>
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
@@ -48,10 +45,25 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Height="120" Width="400" Content="Eliminar" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="58" Click="Button_Click" />
-            <Button Grid.Column="1" Height="120" Width="400" Content="Editar" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="58" Click="Button_Click_1" />
-            <Button Grid.Column="2" Height="120" Width="200" Content="Subir" Margin="20,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="58" Click="Button_Click_2" />
-            <Button Grid.Column="2" Height="120" Width="200" Content="Bajar" Margin="40,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="58" Click="Button_Click_3" />
+            <Button Grid.Column="0" Height="120" Width="400" Content="Eliminar" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="58" Click="Button_Click_Eliminar"/>
+            <Button Grid.Column="1" Height="120" Width="400" Content="Editar" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="58" />
+            <Button Grid.Column="2" Height="120" Width="200" Content="Subir" Margin="20,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="58"  />
+            <Button Grid.Column="2" Height="120" Width="200" Content="Bajar" Margin="40,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="58"  />
         </Grid>
+        <StackPanel x:Name="Confirmacion" Grid.Row="2" FlowDirection="LeftToRight" Orientation="Horizontal" Background="#e5e5e5" VerticalAlignment="Bottom" Width="1920" Height="250" IsEnabled="True" Visibility="Hidden">
+            <Button Content="Aceptar" Background="#6EA96E" Height="250" FontSize="72" Width="600" Margin="50 0 600 0" HorizontalAlignment="Left"/>
+            <Button Content="Cancelar" Background="#A96E6E" Height="250" FontSize="72" Width="600" HorizontalAlignment="Right" Click="Button_Click"/>
+        </StackPanel>
+
+        <ListView Name="ListaBotones" Margin="20" Grid.Row="1" Grid.ColumnSpan="3">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn  Header="Botones" DisplayMemberBinding="{Binding ListaBotones_Contents}"  />
+                </GridView>
+            </ListView.View>
+            </ListView>
+
+        
+
     </Grid>
 </Page>
