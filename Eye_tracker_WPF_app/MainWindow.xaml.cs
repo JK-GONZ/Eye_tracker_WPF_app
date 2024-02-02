@@ -15,9 +15,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
-using Eye_tracker_WPF_app.Paginas;
 using System.Diagnostics;
+using Eye_tracker_WPF_app.Views;
+using System.Windows.Forms;
+using Eye_tracker_WPF_app.Buttons;
+
+using System.Threading;
 
 namespace Eye_tracker_WPF_app
 {
@@ -26,8 +29,9 @@ namespace Eye_tracker_WPF_app
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        Pagina_main Pgmain = new Pagina_main ();
+        protected Process botonesPY;
+        protected Process ConfigPY = new Process();
+        protected Process EyeTrackerPY;
 
         public void Initialize()
         {
@@ -37,55 +41,127 @@ namespace Eye_tracker_WPF_app
         }
         public MainWindow()
         {
-
-
             /* Handlers for window events */
-            this.Closed += Windows_FinishProgram;
+            //this.Closed += Windows_FinishProgram;
+
 
             Initialize();
             InitializeComponent();
 
-
-            //IniciarPython();
-
-
-
-            MiFrame.NavigationService.Navigate(Pgmain);
+            IniciarPython();
+            IniciarEyeTracking();
 
 
         }
 
         public void Windows_FinishProgram(object? sender, EventArgs e)
         {
-            Application.Current.Shutdown(0);
-            //Environment.Exit(0);
+            try
+            {
+                botonesPY.Kill(true);
+            }
+            catch (Exception exception) { System.Console.WriteLine(exception + " botones"); }
+            try
+            {
+                EyeTrackerPY.Kill(true);
+            }
+            catch(Exception exception) { System.Console.WriteLine(exception + " Eyetracker"); }
+            try
+            {
+                ConfigPY.Kill(true);
+            }
+            catch (Exception exception) { System.Console.WriteLine(exception + " Config"); }
+            System.Windows.Application.Current.Shutdown(0);
         }
 
-
+        #region Iniciar Python
 
         public void IniciarPython()
         {
-            string result = "";
-            ProcessStartInfo start = new ProcessStartInfo();
-            start.FileName = @"C:\Program Files\Python310\python.exe";
-            // arg[0] = Path to your python script (example : "C:\\add_them.py")
-            // arg[1] = first arguement taken from  C#'s main method's args variable (here i'm passing a number : 5)
-            // arg[2] = second arguement taken from  C#'s main method's args variable ( here i'm passing a number : 6)
-            // pass these to your Arguements property of your ProcessStartInfo instance
+            string rutaPython = @"C:\Program Files\Python310\python.exe";
+            
+            string rutaScript = System.IO.Path.GetFullPath(@"..\..\..\Resources\Botones.py");
 
-            start.Arguments = "Botones.py";
-            start.UseShellExecute = false;
-            start.WorkingDirectory = "D:\\GitHub\\Eye_tracker_WPF_app\\Eye_tracker_Python_Program\\Botones.py"; //scriptPath
-            start.RedirectStandardOutput = true;
-            using (Process process = Process.Start(start))
+            ProcessStartInfo startInfo = new ProcessStartInfo
             {
-                using (StreamReader reader = process.StandardOutput)
-                {
-                    result = reader.ReadToEnd();
-                    Console.Write(result);
-                }
+                FileName = rutaPython,
+                Arguments = rutaScript,
+                CreateNoWindow = true,
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true
+            };
+
+            botonesPY = new Process
+            {
+                StartInfo = startInfo 
+            };
+
+            botonesPY.Start();
+
+            Thread.Sleep(1000);
+
+        }
+        #endregion
+
+        #region Iniciar Eye Tracker
+
+        public void IniciarEyeTracking()
+        {
+            string rutaPython = @"C:\Program Files\Python310\python.exe";
+
+            string rutaScript = System.IO.Path.GetFullPath(@"..\..\..\Resources\EyeTracker.py");
+
+            ProcessStartInfo startInfo = new ProcessStartInfo
+            {
+                FileName = rutaPython,
+                Arguments = rutaScript,
+                CreateNoWindow = true,
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true
+            };
+
+            EyeTrackerPY = new Process
+            {
+                StartInfo = startInfo
+            };
+
+            
+            try
+            {
+                EyeTrackerPY.Start();
             }
+            catch (Exception exception) { System.Console.WriteLine(exception); }
+        }
+        #endregion
+
+
+        #region ConfigAPP
+        public void ConfigAPP()
+        {
+            string rutaPython = @"C:\Program Files\Python310\python.exe";
+            string rutaScript = System.IO.Path.GetFullPath(@"..\..\..\Resources\Ajustes.py");
+
+            ProcessStartInfo startInfo = new ProcessStartInfo
+            {
+                FileName = rutaPython,
+                Arguments = rutaScript,
+                CreateNoWindow = true,
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true
+            };
+
+            ConfigPY = new Process
+            {
+                StartInfo = startInfo
+            };
+
+            ConfigPY.Start();
+
         }
 
+        #endregion
     }
 }

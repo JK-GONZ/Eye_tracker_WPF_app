@@ -1,11 +1,5 @@
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app.csproj.AssemblyReference.cache
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\MainWindow.g.cs
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_añadir_boton.g.cs
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_Botones.g.cs
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_Juegos.g.cs
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_main.g.cs
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_modificar_botones.g.cs
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_Teclado_Pantalla.g.cs
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\App.g.cs
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app_MarkupCompile.cache
@@ -71,15 +65,7 @@ D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\bin\Debug\net7.0-windows\zh-Ha
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\bin\Debug\net7.0-windows\zh-Hant\System.Private.ServiceModel.resources.dll
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\App.baml
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\MainWindow.baml
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_añadir_boton.baml
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_Botones.baml
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_Juegos.baml
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_main.baml
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_modificar_botones.baml
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Paginas\Pagina_Teclado_Pantalla.baml
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app.g.resources
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app.Paginas.Teclado_Pantalla.resources
-D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app.csproj.GenerateResource.cache
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app.AssemblyInfoInputs.cache
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app.AssemblyInfo.cs
@@ -90,3 +76,7 @@ D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\refin
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app.pdb
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Eye_tracker_WPF_app.genruntimeconfig.cache
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\ref\Eye_tracker_WPF_app.dll
+D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Resources\styles.baml
+D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Views\ButtonsView.g.cs
+D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\obj\Debug\net7.0-windows\Views\ButtonsView.baml

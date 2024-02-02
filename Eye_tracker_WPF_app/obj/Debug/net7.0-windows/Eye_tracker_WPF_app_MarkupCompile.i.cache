@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\GitHub\Eye_tracker_WPF_app\Eye_tracker_WPF_app\App.xaml
-7554058565
+31374045755
 
-13-303003550
-247-855072913
-MainWindow.xaml;Paginas\Pagina_añadir_boton.xaml;Paginas\Pagina_Botones.xaml;Paginas\Pagina_Juegos.xaml;Paginas\Pagina_main.xaml;Paginas\Pagina_modificar_botones.xaml;Paginas\Pagina_Teclado_Pantalla.xaml;
+11-1692738403
+2482026284629
+MainWindow.xaml;Resources\styles.xaml;Views\ButtonsView.xaml;
 
-True
+False
 

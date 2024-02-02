@@ -2,37 +2,36 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net7.0-windows10.0.22621.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <StartupObject>Eye_tracker_WPF_app.App</StartupObject>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
   <ItemGroup>
-    <None Remove="Recursos\Roboto-Bold.ttf" />
-    <None Remove="Recursos\Roboto-BoldItalic.ttf" />
-    <None Remove="Recursos\Roboto-Italic.ttf" />
-    <None Remove="Recursos\Roboto-Medium.ttf" />
-    <None Remove="Recursos\Roboto-MediumItalic.ttf" />
-    <None Remove="Recursos\Roboto-Regular.ttf" />
+    <None Remove="Resources\Roboto-Bold.ttf" />
+    <None Remove="Resources\Roboto-BoldItalic.ttf" />
+    <None Remove="Resources\Roboto-Italic.ttf" />
+    <None Remove="Resources\Roboto-Medium.ttf" />
+    <None Remove="Resources\Roboto-MediumItalic.ttf" />
+    <None Remove="Resources\Roboto-Regular.ttf" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MindFusion.Keyboard" Version="5.0.2" />
     <PackageReference Include="MindFusion.Pack.WinForms" Version="2023.1.0" />
     <PackageReference Include="NetMQ" Version="4.0.1.12" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="python" Version="3.11.4" />
     <PackageReference Include="pythonnet" Version="3.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Recursos\Roboto-Bold.ttf" />
-    <Resource Include="Recursos\Roboto-BoldItalic.ttf" />
-    <Resource Include="Recursos\Roboto-Italic.ttf" />
-    <Resource Include="Recursos\Roboto-Medium.ttf" />
-    <Resource Include="Recursos\Roboto-MediumItalic.ttf" />
-    <Resource Include="Recursos\Roboto-Regular.ttf" />
   </ItemGroup>
 
 </Project>

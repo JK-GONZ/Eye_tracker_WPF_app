@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v7.0": {
       "Eye_tracker_WPF_app/1.0.0": {
         "dependencies": {
-          "MindFusion.Keyboard": "5.0.2",
           "MindFusion.Pack.WinForms": "2023.1.0",
           "NetMQ": "4.0.1.12",
+          "Newtonsoft.Json": "13.0.3",
           "python": "3.11.4",
           "pythonnet": "3.0.1"
         },
@@ -48,18 +48,6 @@
       "Microsoft.Win32.SystemEvents/5.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0"
-        }
-      },
-      "MindFusion.Keyboard/5.0.2": {
-        "runtime": {
-          "lib/net6.0/MindFusion.Keyboard.WinForms.dll": {
-            "assemblyVersion": "5.0.2.601",
-            "fileVersion": "5.0.2.601"
-          },
-          "lib/net6.0/MindFusion.Licensing.dll": {
-            "assemblyVersion": "1.0.6.500",
-            "fileVersion": "1.0.6.500"
-          }
         }
       },
       "MindFusion.Pack.WinForms/2023.1.0": {
@@ -127,6 +115,14 @@
           "lib/net6.0/MindFusion.Graphs.dll": {
             "assemblyVersion": "2.3.3.600",
             "fileVersion": "2.3.3.600"
+          },
+          "lib/net6.0/MindFusion.Keyboard.WinForms.dll": {
+            "assemblyVersion": "5.0.2.601",
+            "fileVersion": "5.0.2.601"
+          },
+          "lib/net6.0/MindFusion.Licensing.dll": {
+            "assemblyVersion": "1.0.6.500",
+            "fileVersion": "1.0.6.500"
           },
           "lib/net6.0/MindFusion.Mapping.WinForms.dll": {
             "assemblyVersion": "2.0.2.600",
@@ -205,6 +201,14 @@
           "lib/netstandard2.1/NetMQ.dll": {
             "assemblyVersion": "4.0.1.12",
             "fileVersion": "4.0.1.12"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
           }
         }
       },
@@ -455,13 +459,6 @@
       "path": "microsoft.win32.systemevents/5.0.0",
       "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
     },
-    "MindFusion.Keyboard/5.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-r8Cx6aU63ty4vRhf5VLpZSfuAx2U4zMOelIpq5+OHcXBHUeiVlsq8+MZi5DPWhETBmW/Si9K7OwvRnjoXeu6dw==",
-      "path": "mindfusion.keyboard/5.0.2",
-      "hashPath": "mindfusion.keyboard.5.0.2.nupkg.sha512"
-    },
     "MindFusion.Pack.WinForms/2023.1.0": {
       "type": "package",
       "serviceable": true,
@@ -482,6 +479,13 @@
       "sha512": "sha512-TeeHKqhJ5rCuzqYfF9gfU7aPeQjO8Wkw0FJznPYIVMJTFyw1Kz/y8pY0MmZnfNJNJ/7YU6TA80o1ru/EVM/aQQ==",
       "path": "netmq/4.0.1.12",
       "hashPath": "netmq.4.0.1.12.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
     "python/3.11.4": {
       "type": "package",
